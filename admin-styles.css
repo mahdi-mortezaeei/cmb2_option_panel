@@ -1,0 +1,175 @@
+/* ===================== start option panel  */
+
+#adminmenu .wp-menu-image img {
+    max-width: 20px;
+}
+
+.uk-list-divider>li:nth-child(n+2) {
+    border-top: 1px solid #e5e5e5;
+}
+
+.yara_setting .yara-side-menu {
+    padding-left: 0;
+}
+
+.yara_setting .yara-side-menu .uk-card {
+    background: transparent;
+    padding-right: 0;
+    padding-left: 0;
+    box-shadow: none;
+}
+
+.yara_setting .uk-list-divider>li:not(.yara-theme-name) {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #f0f0f1;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item a {
+    border-left: none;
+    border-right: 3px solid transparent;
+    text-decoration: none;
+    color: #121116;
+    display: block;
+    padding: 20px 10px;
+    transition: 200ms;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item .yara-menu-icon {
+    float: left;
+    color: #878D93;
+    position: relative;
+    top: 8px;
+    transition: 200ms;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item .yara-menu-icon svg {
+    width: 26px;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item .yara-menu-title {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item .yara-menu-description {
+    color: #72777C;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item a:hover {
+    border-right-color: #EF394E;
+    background: #fff;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item a:hover .yara-menu-title {
+    color: #EF394E;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-menu-item a:hover .yara-menu-icon svg {
+    color: #EF394E;
+}
+
+.yara_setting .yara-side-menu .uk-card .nav-tab-active a {
+    border-right-color: #EF394E;
+    background: #fff;
+}
+
+.yara_setting .yara-side-menu .uk-card .nav-tab-active a .yara-menu-title {
+    color: #EF394E;
+}
+
+.yara_setting .yara-side-menu .uk-card .nav-tab-active a .yara-menu-icon svg {
+    color: #EF394E;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-theme-name {
+    padding: 0 0 20px 0;
+    margin: 0;
+    color: #EF394E;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-theme-name img {
+    margin-right: 0;
+    float: right;
+    margin-left: 10px;
+    max-width: 42px;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-theme-name strong {
+    padding-bottom: 6px;
+    position: relative;
+    display: inline-block;
+    top: 6px;
+}
+
+.yara_setting .yara-side-menu .uk-card .yara-theme-name span {
+    color: #7F7F7F;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 90%;
+}
+
+.yara_setting .yara-settings-content {
+    padding-right: 0;
+}
+
+.yara_setting .yara-settings-content .uk-card {
+    box-shadow: none;
+}
+
+.yara_setting .yara-settings-content .yara-settings-area .yara-settings-title {
+    border-bottom: 1px solid #DDD;
+    height: 66px;
+    line-height: 66px;
+}
+
+.yara_setting .yara-settings-content .yara-settings-area .yara-settings-title .yara-title-icon {
+    display: inline-block;
+    border-radius: 2px;
+    width: 56px;
+    height: 56px;
+    color: #EF394E;
+    background: rgba(239, 57, 78, 0.25);
+    position: relative;
+}
+
+.yara_setting .yara-settings-content .yara-settings-area .yara-settings-title .yara-title-icon:before {
+    content: '';
+    position: absolute;
+    width: 56px;
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background: #EF394E;
+}
+
+.yara_setting .yara-settings-content .yara-settings-area .yara-settings-title .yara-title-icon .uk-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.yara_setting .yara-settings-content .yara-settings-area .yara-settings-title .yara-title-icon .uk-icon svg {
+    width: 26px;
+}
+
+.yara_setting .yara-settings-content .yara-settings-area .yara-settings-title strong {
+    position: relative;
+    bottom: 19px;
+    margin-left: 17px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/* ===================== end option panel  */
